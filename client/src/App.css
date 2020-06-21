@@ -1,0 +1,51 @@
+.body {
+    background-color: gray;
+}
+.App {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 80vh;
+    max-width: 90vw;
+    margin: 0 auto;
+    margin-top: 10vh;
+    gap: 0.5rem;
+}
+.cover {
+    background-color: gray;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: #16a085;
+    font-size: 2rem;
+}
+.card {
+    height: 100%;
+    width: 100%;
+    font-size: 4rem;
+}
+.bg-blue {
+    background-color: #c0392b;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img {
+    width: 100%;
+}
+.won {
+    text-align: center;
+    color: #fff;
+    background: #16a085;
+    max-width: 80vw;
+    margin: 0 auto;
+    margin-top: 10rem;
+    height: 6rem;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
